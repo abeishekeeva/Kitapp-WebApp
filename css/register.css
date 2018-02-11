@@ -1,0 +1,48 @@
+#register_form input, h4{
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#register_form button{
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+   border-top: transparent;
+   border-left: transparent;
+   border-bottom: transparent;
+   border-right: transparent;
+   height: 40px;
+   background-color: #a3bbad;
+}
+#go_to_login, #go_to_register a{
+  text-decoration: none;
+}
+
+#login_form input, h4{
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#login_form button{
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+   border-top: transparent;
+   border-left: transparent;
+   border-bottom: transparent;
+   border-right: transparent;
+   height: 40px;
+   background-color: #a3bbad;
+}

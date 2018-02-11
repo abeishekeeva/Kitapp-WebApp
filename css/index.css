@@ -1,0 +1,233 @@
+
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url('../fonts/GothamPro-Black.ttf') format("truetype");
+       /* url('../fonts/GothamPro-Black.eot'),
+       url('../fonts/GothamPro-Black.ttf'),
+       url('../fonts/GothamPro-Black.woff'), */
+}
+html {
+  font-family: 'GothamPro';
+}
+
+body {
+    background-image: url('../images/Bookshelf.jpg');
+    background-color: #fff;
+    background-size: contain;
+    background-repeat:no-repeat;
+    color: #777;
+    /*src: url('fonts/GothamPro-Medium.otf'); */
+     /* font-family: normal 15px "Open Sans", Arial, Helvetica, Geneva, sans-serif; */
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+
+#index_header_categ_wrap {
+  width: 300px;
+  height: 400px;
+  background-color: #a3bbad;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 100px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#index_header_categ_wrap h3 {
+  color: white;
+}
+#index_header_categories_box a {
+  display: block;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#index_header_categories_box {
+  display: inline-block;
+}
+
+#index_header_searchbar {
+  margin-top: 15px;
+  margin-right: 40px;
+  float: right;
+  display: inline-block;
+}
+
+#index_header_searchbar input[type=text] {
+  width: 700px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 3px;
+  border-top: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+  border-right: transparent;
+}
+
+.searchButton {
+  margin-top: 10px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #a3bbad;
+  background: #a3bbad;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #a3bbad;
+  border-top: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+  border-right: transparent;
+}
+
+#sellOrBuy {
+  display: inline-block;
+  color: #a3bbad;
+  font-size: 30px;
+  font-family: Calibri;
+  margin-left: 50%;
+}
+#Buttons {
+  display: inline-block;
+}
+#sellButton {
+  display: inline-block;
+  color: white;
+  margin-left: 90%;
+}
+
+#buyButton {
+  color: white;
+  display: inline-block;
+
+}
+
+#index_selected {
+  display: block;
+  margin-top: 50px;
+}
+#index_selected, #index_catalog_header h1 {
+  text-align: center;
+}
+
+#index_selected_book_line {
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  background-color: #ebebe0;
+}
+#index_selected_book_line img:hover {
+  transform: scale(1.5);
+}
+
+#index_selected_book_images, #index_catalog_row1, #index_catalog_row2 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#index_selected_book_images img{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: auto;
+  height: 200px;
+  display: inline-block;
+}
+
+#index_catalog_header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#index_catalog_content img {
+  height: 250px;
+  display: inline-block;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+}
+.book_description {
+  display: inline-block;
+}
+
+#go_to_catalog {
+  margin-top: 3%;
+  margin-right: 5%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#go_to_catalog button {
+  background-color:grey;
+}

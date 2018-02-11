@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <title>Simply</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+      <div ng-include="'header.html'"></div>
+  </header>
+
+
+      <div id="catalog_searchbar">
+         <input type="text" placeholder="  Поиск по названию книги, автора, жанру">
+         <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+
+    <div id="catalog_complete_header">
+      <h1> Все книги </h1>
+    </div>
+
+<div class="container" id="catalog_content_row">
+
+  <div class="row" id="catalog_row1">
+      <div class="center-block" class="col-md-4 vcenter">
+        <img  src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+      </div>
+
+      <div class="center-block" class="col-md-4">
+        <img  src="../images/ayn.jpg">
+        <div class="book_description">
+          <h4>Название </h4>
+          <p >Описание </p>
+          <h4> Цена <h4>
+        </div>
+      </div>
+
+      <div class="center-block" class="col-md-4">
+        <img src="../images/ayn.jpg">
+        <div class="book_description">
+          <h4>Название </h4>
+          <p >Описание </p>
+          <h4> Цена <h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="catalog_row2">
+        <div class="center-block" class="col-md-4">
+          <img  src="../images/ayn.jpg">
+            <div class="book_description">
+              <h4>Название </h4>
+
+              <h4> Цена <h4>
+            </div>
+        </div>
+        <div class="center-block" class="col-md-4">
+          <img  src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+        </div>
+
+        <div class="center-block" class="col-md-4">
+          <img src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

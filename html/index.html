@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <title>Simply</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body >
+    <header>
+      <div ng-include="'header.html'"></div>
+    </header>
+
+      <div id="index_header_searchbar">
+         <input type="text" placeholder="  Поиск по названию книги, автора, жанру">
+         <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+    <div id="index_header_categ_wrap">
+
+      <!-- <div id="Buttons">
+        <button id="buyButton"  type="button"> Хочу купить </button>
+        <button id="sellButton" type="button"> Хочу продать </button>
+      </div> -->
+
+
+
+
+      <div id="index_header_categories_box">
+        <h3> Категории </h3>
+        <a href="#"> Романы </a>
+        <a href="#"> Детективы </a>
+        <a href="#"> Бизнес литература </a>
+        <a href="#"> Школьные учебники </a>
+        <a href="#"> Биографии </a>
+        <a href="#"> Детские книги </a>
+        <a href="#"> Учебники </a>
+        <a href="#"> Классика </a>
+        <a href="#"> Фантастика </a>
+        <a href="#"> Научная литература </a>
+      </div>
+
+      <!-- <div id="sellOrBuy">
+        <p> Купи или продай книгу!</p>
+      </div> -->
+    </div>
+
+
+<div id="index_selected">
+  <h1> Избранное </h1>
+</div>
+
+<div id = "index_selected_book_line">
+  <div id = "index_selected_book_images">
+      <img src="../images/ayn.jpg">
+      <img src="../images/ayn.jpg">
+      <img src="../images/ayn.jpg">
+      <img src="../images/ayn.jpg">
+    </div>
+</div>
+
+<div id="index_catalog_header">
+  <h1> Каталог </h1>
+</div>
+
+<div class="container" id="index_catalog_content">
+  <div class="row" id="index_catalog_row1">
+      <div class="center-block" class="col-md-4 vcenter">
+        <img  src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+      </div>
+      <div class="center-block" class="col-md-4">
+        <img  src="../images/ayn.jpg">
+        <div class="book_description">
+          <h4>Название </h4>
+          <p >Описание </p>
+          <h4> Цена <h4>
+        </div>
+      </div>
+      <div class="center-block" class="col-md-4">
+        <img src="../images/ayn.jpg">
+        <div class="book_description">
+          <h4>Название </h4>
+          <p >Описание </p>
+          <h4> Цена <h4>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row" id="index_catalog_row2">
+        <div class="center-block" class="col-md-4">
+          <img  src="../images/ayn.jpg">
+            <div class="book_description">
+              <h4>Название </h4>
+
+              <h4> Цена <h4>
+            </div>
+        </div>
+        <div class="center-block" class="col-md-4">
+          <img  src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+        </div>
+
+        <div class="center-block" class="col-md-4">
+          <img src="../images/ayn.jpg">
+          <div class="book_description">
+            <h4>Название </h4>
+            <p >Описание </p>
+            <h4> Цена <h4>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div id="go_to_catalog" class="btn-group">
+  <button type="button" style="width: 200px;"class="btn btn-default">Смотреть каталог</button>
+</div>
+
+
+
+
+
+</body>
+</html>
